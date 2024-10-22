@@ -26,7 +26,7 @@ function ToggleOff({on, children}) {
 }
 
 function ToggleButton({on, toggle, ...props}) {
-  return <Switch on={on} onclick={toggle} {...props} />
+  return <Switch on={on} onClick={toggle} {...props} />
 }
 
 function App() {
